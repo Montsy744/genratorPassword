@@ -1,0 +1,27 @@
+body {
+    background-color:hsla(317,0%,0%,1);
+    background-image:
+    radial-gradient(at 12% 43%, hsla(121,100%,50%,1) 0px, transparent 50%),
+    radial-gradient(at 37% 98%, hsla(97,77%,37%,1) 0px, transparent 50%),
+    radial-gradient(at 53% 68%, hsla(101,71%,64%,1) 0px, transparent 50%),
+    radial-gradient(at 41% 70%, hsla(108,78%,48%,1) 0px, transparent 50%),
+    radial-gradient(at 31% 13%, hsla(126,75%,75%,1) 0px, transparent 50%),
+    radial-gradient(at 56% 39%, hsla(132,87%,69%,1) 0px, transparent 50%),
+    radial-gradient(at 82% 99%, hsla(111,85%,73%,1) 0px, transparent 50%);
+    background-attachment: fixed;
+    max-height: 100vh;
+    min-height: 100vh;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: white;
+}
+
+#container {
+    background-color: black;
+    padding: 5rem;
+    border-radius: 20px;
+}
